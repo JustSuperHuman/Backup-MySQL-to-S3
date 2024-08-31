@@ -1,0 +1,6 @@
+/backups/*.sql
+/certs/*
+@*
+.env
+/Windows/*
+ggit 
