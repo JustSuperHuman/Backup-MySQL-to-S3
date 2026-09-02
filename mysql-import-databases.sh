@@ -8,10 +8,10 @@ DEFAULT_MYSQL_PATH="/usr/bin"
 # Parse command line arguments
 while [[ $# -gt 0 ]]; do
   case $1 in
-    --dest-mysql-host) DEST_MYSQL_HOST="$2"; shift ;;
-    --dest-mysql-user) DEST_MYSQL_USER="$2"; shift ;;
-    --dest-mysql-password) DEST_MYSQL_PASSWORD="$2"; shift ;;
-    --dest-mysql-port) DEST_MYSQL_PORT="$2"; shift ;;
+    --mysql-host) DEST_MYSQL_HOST="$2"; shift ;;
+    --mysql-user) DEST_MYSQL_USER="$2"; shift ;;
+    --mysql-password) DEST_MYSQL_PASSWORD="$2"; shift ;;
+    --mysql-port) DEST_MYSQL_PORT="$2"; shift ;;
     --ca-cert) CA_CERT="$2"; shift ;;
     --backup-dir) BACKUP_DIR="$2"; shift ;;
     --mysql-path) MYSQL_PATH="$2"; shift ;;
